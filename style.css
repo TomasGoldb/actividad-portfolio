@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    font-family: "Cabin", sans-serif;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: "PT Sans", sans-serif;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+}
+
+
+header nav img{
+    width: 10%;
+    margin-left: 5%;
+}
+header nav ul{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+header nav ul li{
+    list-style: none;
+    text-decoration: none;
+    width: 50%;
+    
+}
+header nav ul li .btn-outline-primary{
+    font-size: 1vw;
+}
+
+main .breve-descripcion-arriba{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+main .breve-descripcion-arriba h2{
+    font-size: 3vw;
+}
+main .breve-descripcion-arriba p{
+    font-size: 1.2vw;
+}
+main .breve-descripcion-arriba img{
+    width: 10%;
+    margin-top: 5%;
+}
+
+main .section-carrusel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+
+.carousel{
+    width: 50%;
+}
+
+
+
+
+.img-card{
+    width: 30%;
+}
+main section .card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
