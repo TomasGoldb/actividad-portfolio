@@ -6,7 +6,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    border: 1px solid black;
 }
 h2{
     font-family: "Cabin", sans-serif;
@@ -78,6 +77,7 @@ main section .card
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%
 }
 
 
@@ -89,7 +89,12 @@ main .cartas-proyectos .row .card-body{
     align-items: center;
     flex-direction: column;
 }
-
+.carousel div div img{
+    border-radius: 5px;
+}
+.carousel div{
+    border-radius: 5px;
+}
 .div-carrousel{
     margin-top: 5%;
 }
@@ -100,7 +105,10 @@ main .cartas-proyectos .row .card-body{
 
 main .cartas-proyectos .card .width-img{
     width: 70%;
-    height: auto;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main .cartas-proyectos div div div{
@@ -110,3 +118,41 @@ main .cartas-proyectos div div div{
     justify-content: center;
 
 }
+
+.testimonio div img{
+    width: 40%;
+    border-radius: 50%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.container.text-center.slide-testimonio{
+    width: 90%;
+}
+.conjunto-testimonios div{
+    width: 90%;
+}
+.conjunto-testimonios div div{
+   width: 60%;
+}
+.testimonio{
+    width: 15rem;
+}
+.testimonio div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.conjunto-testimonios div div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.slide-testimonio{
+    display: flex;
+    justify-content: center;
+}
+
