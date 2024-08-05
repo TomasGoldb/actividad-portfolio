@@ -82,7 +82,7 @@ main section .card
 
 
 main .cartas-proyectos{
-    margin-top: 6%;
+    margin-top: 9%;
 }
 main .cartas-proyectos .row .card-body{
     display: flex;
@@ -92,9 +92,11 @@ main .cartas-proyectos .row .card-body{
 .carousel div div img{
     border-radius: 5px;
 }
-.carousel div{
-    border-radius: 5px;
+.carousel-testimonio div div img{
+    border-radius: 50%;
 }
+
+
 .div-carrousel{
     margin-top: 5%;
 }
@@ -151,8 +153,32 @@ main .cartas-proyectos div div div{
     justify-content: center;
 }
 
+
 .slide-testimonio{
     display: flex;
     justify-content: center;
 }
 
+
+.carousel-testimonio{
+    margin-top: 13%;
+    margin-bottom: 10%;
+}
+
+.cartas-proyectos h1{
+    font-size: 4vw;
+    margin-bottom: 4%;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #0a53be;
+}
+footer a{
+    margin: 2%;
+}
